@@ -55,8 +55,10 @@ Lo que esto hace, es declarar que al usar el comando *npm start*, va a correr au
 node {FILE_NAME}.js
 node tester.js
 ```
+&nbsp;
 
-### Módulos
+
+#### Módulos
 
 Para poder usar módulos, es necesario exportarlos en el mismo archivo:
 ```javascript
@@ -68,7 +70,56 @@ class student{
 }
 export default student;
 ```
+
+Al inicio JS no ofrecía modulos, por lo que Node hizo los suyos. 
+
+#### Importar Módulos Node
+```javascript
+ import express from "express";
+
+ const express = require("express");
+
+```
+Es ***NECESARIO*** incluir el typo de archivo "module" en el [package.json](#configuraciones-iniciales)
+
 &nbsp;
+
+### Express
+- un framework el cual facilita la la creacion y manejo del servidor.
+- 
+&nbsp;  
+ 
+#### Instalar express
+
+```
+npm install express
+```
+
+
+
+&nbsp;
+
+```javascript
+import express  from "express";
+
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res)=>{
+    res.send("Hello from api!")
+})
+
+app.listen(port, ()=>{
+    console.log("Listening Worked on port " + port)
+})
+
+```
+
+Para que esto funcione, es necesario [correr](#correr-archivos) el archivo
+
+La funcion ***get()*** maneja el request y response del URI especificado. En este caso solo está enviando un mensaje.
+
+La función ***listen()*** inicia el servidor.
 
 
 - - -
