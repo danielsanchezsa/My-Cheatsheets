@@ -178,6 +178,7 @@ _Horizontal line :_
 - - - -
 
     Markup :  - - - -
+<img src="./images/ASD1.png" alt="alt text" width="500"/>
 
 _Image with alt :_
 
@@ -245,3 +246,6 @@ Emoji:
 :exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
 
     Markup : Code appears between colons :EMOJICODE:
+
+
+    
