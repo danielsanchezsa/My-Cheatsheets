@@ -10,6 +10,7 @@
 
 ```
 npx create-react-app my-app
+npx create-react-app my-app --template typescript
 ```
 
 ---
