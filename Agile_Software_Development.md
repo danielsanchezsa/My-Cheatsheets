@@ -35,7 +35,7 @@ There are different models to develop software, which one of them may fit in a p
 You can **classify** these methods in different sections.
 1. **Predictive vs Adaptive**
     - The **predictive** classification is when the customer knows EXACTLY what he wants to build. In here the cycle is straight. (Design -> Implementation -> Testing). You get the product in one shot, and because the requirements are known in the beginning, there are **NO Changes** during development.
-    - The **adaptive** models are useful when the customer does not know exactly whet he wants to build. It has an **idea, but not everything**. So in here, they start with an idea. They develop a small version of it, they five it to the customer to have some feedback for the next **update**. In the end, the final product s not what the user **initially expected**, but it is what he really needed.
+    - The **adaptive** models are useful when the customer does not know exactly what he wants to build. It has an **idea, but not everything**. So in here, they start with an idea. They develop a small version of it, they give it to the customer to have some feedback for the next **update**. In the end, the final product is not what the user **initially expected**, but it is what he really needed.
  &nbsp;
   <img src="./images/ASD2.png" alt="alt text" width="1000"/>
 
@@ -47,11 +47,96 @@ You can **classify** these methods in different sections.
     <img src="./images/ASD3.png" alt="alt text" width="1000"/>
 ---
 
+## Agile
+  &nbsp;
+
+When using **Predictive** model, we make some assumptions that are often incorrect. 
+1. Predict de **requirements** accurately
+     - This was not the case. A lot of times the requirements were incorrect, or what they designed was not what the user wanted.
+     - When developing, the marketing was changing very fast, so the software was obsolete when it was launched.
+2. The **translation** is perfect.
+   - When you finish the requirements, you then go to design, then implementation, etc. If the requirements are incorrect, all the previous sections were incorrect as well.
+
+Because of this, companies start using **Agile** methods, like SCRUM, FDD, XP, etc. And they were finding ***SUCCESS***.
+The main **purposes** for these methods were:
+
+1. **Reduce the learning cycle** by delivering in short iterations and adapt based on what you learn.
+2. **Reduce the cost of change** by making a better collaboration between the sectors.
+
+  &nbsp;
+  &nbsp;
+
+### Agile Manifesto
+  &nbsp;
+
+  #### Agile VALUES
+
+<img src="./images/ASD4.png" alt="alt text" width="1000"/>
+
+1. **Individual Interactions** over processes and tools
+   - This means that usually we try to solve a problem by looking for tools that may help, but it would be better to invest on the interaction between the tools we are using.
+2. **Working Software** over comprehensive documentation
+   - The documentation will always be useful, but what the client wants is the actual software. For them, the docs does not have much value. (What we want is to have our clients happy and satisfied)
+3. **Customer collaboration** over contract negotiation
+   - Having a contract is important, but the best way to get what the client needs it to collaborate with it, and go together hand by hand.
+4. **Responding to change** over following a plan
+   - Plan is needed, but we should NOT say no to change. There will always be change, and we must be ADAPTIVE and AGILE.
+
+***REMEMBER*** We are building what the client **NEEDS**, not what he **Initially wanted**.
+
+&nbsp;
+
+#### Agile PRINCIPLES:
+
+&nbsp;
+<img src="./images/ASD5.png" alt="alt text" width="1000"/>
+<img src="./images/ASD6.png" alt="alt text" width="1000"/>
+&nbsp;
+
+1. We need to focus on what the **Customer values the most**, which is a valuable software.
+2. Adapt to client needs.
+3. Deliver new implementations to the costumer, learn and implement again.
+4. Working together is a must in order to understand the project on both sides.
+5. **TRUST** in your teammates.
+6. Have multiple meetings with the team and the customer.
+7. You can create documents, requirements, etc. But the actual software is the main measure of progress.
+8. -
+9. CODE Standards, clean code, etc.
+10. KISS, Keep It Simple. Try not to do useless work.
+11. DO NOT try to control everything, let developers organize themselves.
+12. Current meetings in development to have a  *reflection* on what they dis and how to improve.
+
+&nbsp;
+So, how does this *values* and *principles* solve the **waterfall problems?**
+With those, you focus on **adapting** the requirements throughout the development, which helps you detect issues earlier and fix the current software. It also focusses on **collaboration**, which will help you detect translation issues earlier.
+
+But, Agile also brings some **problems**:
+Because everything is changing along the way, you will feel a lack of control. Also, the customer will need to spend more time on meetings and on the system.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Common Terms
 
 ### User Stories
 - These are a **basic unit of user needs**, which is also known as **requirements** 
+
 
 
 
