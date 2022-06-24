@@ -69,7 +69,7 @@ The main **purposes** for these methods were:
 ### Agile Manifesto
   &nbsp;
 
-  #### Agile VALUES
+#### Agile VALUES
 
 <img src="./images/ASD4.png" alt="alt text" width="1000"/>
 
@@ -113,11 +113,43 @@ With those, you focus on **adapting** the requirements throughout the developmen
 But, Agile also brings some **problems**:
 Because everything is changing along the way, you will feel a lack of control. Also, the customer will need to spend more time on meetings and on the system.
 
+&nbsp;
+
 ---
 
+## Applying Agile Mindset
 
+Agile is ***NOT*** better all the time.
+It is not valuable for predictive, repeatable work.
 
+The Agile method is quite simple.
 
+<h3> Plan -> Build -> Learn -> REPEAT </h3>
+&nbsp;
+
+**Project agile example**
+<img src="./images/ASD7.png" alt="alt text" width="1000"/>
+
+This is a project example, it is **NOT** the same all the time.
+
+So, you first **Organize** the team. You will start planning on who is going to work on what. Then it comes the **understanding user needs**. You will start discover the requirements the client needs in order to develop the software. After that, you will start the **High level architecture**, on which you DON'T have to make it all, just the main things that has to be done at the beginning.
+
+Once that is done, you will start the cycle. **Release Planning**, you will decide on what we need to focus on this cycle and what are we going to build. Then it comes the **Delivery**, on which we start building it, testing it, and improve it. You will also define the user requirements for the current build. Finally, you **Deploy** it. Once it is done, you will start again with the release planning.
+
+### Agile Frameworks
+
+The most common and used frameworks are:
+
+<h5>SCRUM</h5>
+<h5>Kanban</h5>
+<h5>Scrumban</h5>
+<h5>XP - Extreme</h5>
+<h5>Scrum XP</h5>
+<h5> Lean Startup</h5>
+
+&nbsp;
+
+---
 
 
 
