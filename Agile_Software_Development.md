@@ -151,6 +151,88 @@ The most common and used frameworks are:
 
 ---
 
+## User Stories and Requirements Gathering
+
+&nbsp;
+
+### Gathering Requirements
+
+Usually Clients **DO NOT** have any idea what they really want, but the know what they **NEED**. 
+
+So, in this process we need to help the client what it needs to take there. 
+
+When specifying the **requirements with documents**, the client, the developers and the business group will understand it in a very different way. Because of this, in Agile is recommend it to have the documents that are **Just enough - just in time**.
+
+#### Story Process
+
+1. **Card**: The client will specify the requirements in a high level functionality of what they want.
+2. **Conversation**: We will pick one card and build its functionality. The dev and business teams gather up to clearly understand what they need. We specify what is going to do, and how is it going to look like.
+3. **Confirmation**: Both teams will write down what they agreed upon. 
+
+In Agile is allowed to change the requirements over time. This will change what the user wanted, but not what it needed.
+
+
+&nbsp;
+
+### User Stories
+
+<img src="./images/ASD8.png" alt="alt text" width="1000"/>
+&nbsp;
+
+There are some **Templates** to gather the User Stories:
+
+&nbsp;
+<img src="./images/ASD9.png" alt="alt text" width="1000"/>
+
+&nbsp;
+
+Once you have the Who, What and why, you will also need to write the **Acceptance test**
+
+In order to do  that, you will need to see it in this different ways:
+
+- What the **client** will check to validate that it is done.
+- What will we **test to confirm** that is done?
+- How will we **demonstrate** this software at a product review?
+
+In the *test to confirm*, you need to specify the success and failure paths. 
+
+You need to explain **WHAT** this card can do, not the **HOW**.
+Ex:
+- what: The customer can see the details of the movie. :)
+- how: The costumer can click on the right-top side of hte screen to see the details screen. :(  
+
+
+By doing the acceptance test, it will **help you** think through the entire card process, build a common understanding throughout the entire teams, the team response time will improve, end more.
+
+&nbsp;
+
+#### SPIKES
+
+This is also a user stories. They are needed when we need to do some **research** about a tool, software, etc.
+These have a specified **limit time**, and will **NOT** be part of production mode, only for research and knowledge gathering.
+
+&nbsp;
+
+#### Good User Stories characteristics
+
+A User Story can follow the **INVEST** guideline.
+
+- **I**ndependent: When we are working on one, they must be independent from another story. It does not depend on another one.
+- **N**egotiable: We must leave some details at the end. We do not have to specify all the requirements or the process at the beginning. It can also change through time.
+- **V**aluable: It must be useful to the user.
+- **E**stimate.
+- **S**mall.
+- **T**estable: Validate that it is actually done somehow.
+
+User Stories **DO NOT** have to have all these guidelines (it is impossible), but they can try to have them.
+Don't let it come in the way of building right stuff effectively.
+
+
+
+&nbsp;
+
+
+---
 
 
 
@@ -158,11 +240,12 @@ The most common and used frameworks are:
 
 
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-
-
-
-
+---
 
 ## Common Terms
 
