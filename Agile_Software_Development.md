@@ -275,7 +275,7 @@ EXAMPLE:
   4. Variations: You will start to overlap the tasks vertically if the user can do several tasks at a time.
       - So, the vertical alignment means an OR. "The user can enter their email OR enter the password".
       - The horizontal alignment means an AND THEN. "The user Will log in, THEN he will create a product, THEN specify..."
-  5. Slice out viable releases: You select the stories that are the mos meaningful to the initial release.
+  5. Slice out viable releases: You select the stories that are the most meaningful to the initial release.
 
 
 &nbsp;
