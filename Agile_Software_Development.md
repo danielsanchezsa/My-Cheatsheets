@@ -227,13 +227,118 @@ A User Story can follow the **INVEST** guideline.
 User Stories **DO NOT** have to have all these guidelines (it is impossible), but they can try to have them.
 Don't let it come in the way of building right stuff effectively.
 
+&nbsp;
+
+#### Generating User Stories
+
+There are **two** techniques to generate user stories, which are **User Story Writing Workshop** ad **Story Mapping**.
+
+&nbsp;
+
+##### User Story Writing Workshop
+
+**Goal:** Write as many stories as you can for the selected theme
+
+**Who**: The product owner, other stakeholders who knows the user needs, the SCRUM Master and the Dev team.
+
+**How Long**: Few Hours To few days.
+
+The first thing you need to do is to **identify the Users** in the project. Then, you will think on the **functionalities** each user should have in the theme. You start going from the top user stories to bottom (main to specific functionalities)
+
+Once that is done, you will start creating the **Product Backlog** (Ordered list of everything that the product needs. it is ordered by priority).
+
+To have a **GOOD Product Backlog**, it must be:
+- Detailed Appropriately: You must specify what is going to be done, NOT what is going to doing to do in the future.
+- Emergent: Always evolving in terms of user needs and details.
+- Estimated: Predict your plan or releases.
+- Prioritized: Items inside the backlog must have a priority in order to know which one is more important than the other, and which one needs another item to be finished.
+
+&nbsp;
+
+##### Story Mapping
+ 
+ STRUCTURE:
+<img src="./images/ASD10.png" alt="alt text" width="1000"/>
+
+
+So, from left to right is chronological, and from top to bottom is priorities. 
+
+&nbsp;
+
+EXAMPLE:
+<img src="./images/ASD11.png" alt="alt text" width="1000"/>
+
+**STEPS:**
+  1. Frame the problem: Understand what is the problem and what benefit the software can bring to the organization.
+  2. Activities: You outline what activities the user will do. You will start creating the UserStories, and will arrange it in the timeline.
+  3. User Tasks: With  the main activities in the step below, you will create the tasks. These are the steps that a user is going to take to do those activities.
+  4. Variations: You will start to overlap the tasks vertically if the user can do several tasks at a time.
+      - So, the vertical alignment means an OR. "The user can enter their email OR enter the password".
+      - The horizontal alignment means an AND THEN. "The user Will log in, THEN he will create a product, THEN specify..."
+  5. Slice out viable releases: You select the stories that are the mos meaningful to the initial release.
 
 
 &nbsp;
 
-
 ---
 
+## Agile Estimation and Planning
+
+### Agile Planning
+
+There are four main concepts to consider:
+
+1. Multi-level: First you do the Release planning, then the Iteration planning, and then the daily planning.
+2. Less Upfront but frequent: We DON'T do a specific planning at the beginning, but we do more plannings throughout the project.
+3. Just enough, just in time: Do the task you need to complete the specific story. 
+4. Adapt and re-plan: While the process, you can re-plan the main plan. 
+
+So, this is how the process is:
+<img src="./images/ASD12.png" alt="alt text" width="1000"/>
+
+First it comes the **Vision/Strategy**, which we need to know the product vision and what we want to build. Then comes the **Product Backlog/Story Mapping**, which contains the ranked list of stories that we need to build. With those, you specify which ones has to be in the release. This is the **Release Planning**. Once that is done, we break those releases in Sprints. We specify the User Stories that will be on each sprint (**Sprint Planning**). Finally, on each sprint, we do the **Daily standups**. In here, we create the tasks for each user story, and assign it on an everyday work. 
+
+&nbsp;
+
+### Agile Estimation
+
+There are three main concepts:
+
+1. **Effort vs. Duration**:
+   - If you ask a full-time dev to build a web screen and told you that it will take 3 days to build it, it may refer to work work 8 hours for 3 days in order to achieve it.
+   - So, the **Duration** will be 3 days, but the **effort** will be 1 day.
+   - A common term used is an **Ideal day**, which means how many work days it will take you to complete a story if you work UNinterrupted (This is one way on how we estimate the stories.)
+   - We **PREFER EFFORT** over Duration
+2. **Accuracy vs. Precision**:
+   - Precision: A dev can tell me the specific ideal days to finish each task (Task1: 1.2 ID, Task 2: 1.8 ID)
+   - Accuracy: A dev can tell me a rough idea for how long it can take to finish all the tasks, and separate them on **BUCKETS**. These are a "schedule" on when it can deliver the tasks. We can use IDs to do it. (Task 1 and 2 in 1 ID, Tasks 3 and for in 3 IDs, etc..) If you wave less buckets, it will be a faster estimation, but it will be less precise.
+   - The buckets can be on different scales. We can go from binary (Bucket 1: 1 day, B2: 2 days, B3: 4 days, B4: 8 days). So, the dev can specify the bucket on each task.
+   - If you DON'T know how long is it going to take, you add it as a ? instead of a specific time
+   - We **PREFER Accuracy** over Precision
+3. **Relative vs. Absolute**:
+   - Relative Sizing: If a StoryA is 1 point, then the StoryB is 3 points, because it is bigger, and I am estimating Based on what I have calculated before.
+   - Absolute Sizing: StoryA will take 1 day, StoryB will take 2 days.
+   - Relative uses **POINTS**, while absolute uses **Ideal Day Buckets**
+<img src="./images/ASD13.png" alt="alt text" width="1000"/>
+
+&nbsp;
+
+### Estimation Styles and process
+
+
+The main idea is to **involve** the whole dev team into the estimation so that everyone gets an idea of what to build.
+
+There are 3 main estimation styles:
+- **Simple - free form**: Is very simple. You go on each item from the product backlog and specify how long is it going to take. 
+- **Planning poker**: 
+
+- **Card sorting**:
+
+
+
+&nbsp;
+
+---
 
 
 
