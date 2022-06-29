@@ -331,8 +331,37 @@ The main idea is to **involve** the whole dev team into the estimation so that e
 There are 3 main estimation styles:
 - **Simple - free form**: Is very simple. You go on each item from the product backlog and specify how long is it going to take. 
 - **Planning poker**: 
+  - The main idea is that everybody will get one card for each bucket. The PO will explain the story so everybody understands it. Once that is done, everybody will put the card they think it is going to take to solve that story. If someone doesn't agree, we will start the explanation again until everybody puts the same bucket, and move on to the next story.
 
 - **Card sorting**:
+  - First, you pick the smallest and largest story and place it in the top corners. Then, with NO discussion,  SILENTLY,  all the group will start arranging all the stories based on their size. 
+  - IF there are cards with questions, or someone placed a story and you disagree with his decision, you will place those cards outside the board.
+  - With those cards, everybody will discuss about them and place them together.
+  - Finally, everybody will take another look and discuss about disagreements.
+  - After the board is finished, we will create the buckets and their size depending on the stories.
+
+&nbsp;
+
+### Velocity
+
+Velocity in agile is the amount of **work done** in a **sprint**.
+It **depends** on many factors, such as the team, the project, etc.
+
+There are different methods to **calculate the velocity**:
+
+To calculate a finished sprint velocity is simple. You add the total points achieved, and that's it.
+
+To calculate **future sprints**:
+- Use the las sprint velocity
+- Get an average of all the past sprints
+- Get a range of the las X sprints.
+
+How to calculate the **first sprint**:
+<img src="./images/ASD14.png" alt="alt text" width="1000"/>
+
+&nbsp;
+
+### Release Planning
 
 
 
