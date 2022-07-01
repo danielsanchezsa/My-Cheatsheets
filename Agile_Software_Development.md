@@ -19,7 +19,7 @@ We can compare Software development with **building a house**.
 
 In **Software Development**, the **1** are the requirements (what exactly do you need to build). The **2 and 3** are the Design of the entire software (Architecture, High and low level design). The **4** is the actual development, is where the developers start coding. Inside this part, there will be unit testing, which will test each new implementation. The **5** is when the production starts. The buyer will start using the software. Finally, the **6** is the operations and maintenance.
 &nbsp;
-<img src="./images/ASD1.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD1.png" alt="alt text" width="1000"/>
 &nbsp;
 This method is called ***waterfall*** method. In here you go from phase to phase. This was a very famous method, but it has a lot of **issues**. When time is passing, the requirements may change, and the market may vary, so it was not as efficient.
 
@@ -37,14 +37,14 @@ You can **classify** these methods in different sections.
     - The **predictive** classification is when the customer knows EXACTLY what he wants to build. In here the cycle is straight. (Design -> Implementation -> Testing). You get the product in one shot, and because the requirements are known in the beginning, there are **NO Changes** during development.
     - The **adaptive** models are useful when the customer does not know exactly what he wants to build. It has an **idea, but not everything**. So in here, they start with an idea. They develop a small version of it, they give it to the customer to have some feedback for the next **update**. In the end, the final product is not what the user **initially expected**, but it is what he really needed.
  &nbsp;
-  <img src="./images/ASD2.png" alt="alt text" width="1000"/>
+  <img src="./images/Agile_Software_Development/ASD2.png" alt="alt text" width="1000"/>
 
 2. **Incremental vs Iterative**
    - The **incremental** models you have a fairly good idea of what you want to build, but instead of building it in one shot, you buid in increments. So, if you build a car, you first create the wheels, then the chassis, then the the top, etc.
    - The **iterative** models the costumer does not have a specific idea of what to build, but knows the purpose. So, if the goal is to go from point A to B, you first create a bicycle, then a motorcycle, then a car, and finally a truck. 
    - So the **Main differences** is that in the incremental model you break the product into smaller pieces, while the iterative you build something in top of the past development cycle.
   &nbsp;
-    <img src="./images/ASD3.png" alt="alt text" width="1000"/>
+    <img src="./images/Agile_Software_Development/ASD3.png" alt="alt text" width="1000"/>
 ---
 
 ## Agile
@@ -71,7 +71,7 @@ The main **purposes** for these methods were:
 
 #### Agile VALUES
 
-<img src="./images/ASD4.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD4.png" alt="alt text" width="1000"/>
 
 1. **Individual Interactions** over processes and tools
    - This means that usually we try to solve a problem by looking for tools that may help, but it would be better to invest on the interaction between the tools we are using.
@@ -89,8 +89,8 @@ The main **purposes** for these methods were:
 #### Agile PRINCIPLES:
 
 &nbsp;
-<img src="./images/ASD5.png" alt="alt text" width="1000"/>
-<img src="./images/ASD6.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD5.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD6.png" alt="alt text" width="1000"/>
 &nbsp;
 
 1. We need to focus on what the **Customer values the most**, which is a valuable software.
@@ -128,7 +128,7 @@ The Agile method is quite simple.
 &nbsp;
 
 **Project agile example**
-<img src="./images/ASD7.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD7.png" alt="alt text" width="1000"/>
 
 This is a project example, it is **NOT** the same all the time.
 
@@ -176,13 +176,13 @@ In Agile is allowed to change the requirements over time. This will change what 
 
 ### User Stories
 
-<img src="./images/ASD8.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD8.png" alt="alt text" width="1000"/>
 &nbsp;
 
 There are some **Templates** to gather the User Stories:
 
 &nbsp;
-<img src="./images/ASD9.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD9.png" alt="alt text" width="1000"/>
 
 &nbsp;
 
@@ -258,7 +258,7 @@ To have a **GOOD Product Backlog**, it must be:
 ##### Story Mapping
  
  STRUCTURE:
-<img src="./images/ASD10.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD10.png" alt="alt text" width="1000"/>
 
 
 So, from left to right is chronological, and from top to bottom is priorities. 
@@ -266,7 +266,7 @@ So, from left to right is chronological, and from top to bottom is priorities.
 &nbsp;
 
 EXAMPLE:
-<img src="./images/ASD11.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD11.png" alt="alt text" width="1000"/>
 
 **STEPS:**
   1. Frame the problem: Understand what is the problem and what benefit the software can bring to the organization.
@@ -294,7 +294,7 @@ There are four main concepts to consider:
 4. Adapt and re-plan: While the process, you can re-plan the main plan. 
 
 So, this is how the process is:
-<img src="./images/ASD12.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD12.png" alt="alt text" width="1000"/>
 
 First it comes the **Vision/Strategy**, which we need to know the product vision and what we want to build. Then comes the **Product Backlog/Story Mapping**, which contains the ranked list of stories that we need to build. With those, you specify which ones has to be in the release. This is the **Release Planning**. Once that is done, we break those releases in Sprints. We specify the User Stories that will be on each sprint (**Sprint Planning**). Finally, on each sprint, we do the **Daily standups**. In here, we create the tasks for each user story, and assign it on an everyday work. 
 
@@ -319,7 +319,7 @@ There are three main concepts:
    - Relative Sizing: If a StoryA is 1 point, then the StoryB is 3 points, because it is bigger, and I am estimating Based on what I have calculated before.
    - Absolute Sizing: StoryA will take 1 day, StoryB will take 2 days.
    - Relative uses **POINTS**, while absolute uses **Ideal Day Buckets**
-<img src="./images/ASD13.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD13.png" alt="alt text" width="1000"/>
 
 &nbsp;
 
@@ -354,14 +354,77 @@ To calculate a finished sprint velocity is simple. You add the total points achi
 To calculate **future sprints**:
 - Use the las sprint velocity
 - Get an average of all the past sprints
-- Get a range of the las X sprints.
+- Get a range of the last X sprints.
 
 How to calculate the **first sprint**:
-<img src="./images/ASD14.png" alt="alt text" width="1000"/>
+<img src="./images/Agile_Software_Development/ASD14.png" alt="alt text" width="1000"/>
 
 &nbsp;
 
 ### Release Planning
+
+There are 2 types of release planning:
+1. **Fixed Scope**: How long will it take?
+2. **Fixed Date**: What can we deliver?
+
+#### Fixed Scope
+
+In order to calculate the Fixed Scope, you need to have all the stories you need for the Release 1.
+Steps:
+1. Decide the **sprint length**
+2. Calculate the **velocity**
+3. Sum all the **estimate time** for the selected stories
+4. Divide the estimate time by the velocity. That will give you the **number of sprints**
+5. Finally, multiply the number of sprints with the sprint length. That will give you the **duration**
+
+**EXAMPLE**:
+<img src="./images/Agile_Software_Development/ASD15.png" alt="alt text" width="1000"/>
+
+
+##### How to select the stories for the Release #1?
+
+Use the story map (if you have) and craft the release so it can be **usable** by the user.
+In agile we focus on continuous delivery, so we need a **short feedback loop**. So, we need to only keep the stories that are important for achieving the outcome of our release.
+How do You should consider what to consider on selecting a release? It depends on these points:
+
+<img src="./images/Agile_Software_Development/ASD16.png" alt="alt text" width="200"/> 
+
+&nbsp;
+
+####  Fixed Date
+
+1. Groom backlog: You need to know what stories have the highest and lowest priorities.
+2. Calculate velocity.
+3. Have the sprint length
+4. Calculate number of sprints
+5. Calculate Release Capacity: (#Sprints * Velocity). 
+6. With that, include the items from the backlog until almost gets to the points we have calculated.
+
+In case of using **velocity range**, you will do the step 5 with the lowest and highest velocity. So that in the 6th step you calculate the items until exceeds the lowest velocity range.
+
+EXAMPLE:
+<img src="./images/Agile_Software_Development/ASD17.png" alt="alt text" width="1000"/> 
+
+&nbsp;
+
+### Release Tracking
+
+The release tracking will help you know if we are on track for a particular release.
+
+There are three methods:
+
+1. **Release Burn Up**:
+   <img src="./images/Agile_Software_Development/ASD18.png" alt="alt text" width="1000"/> 
+   So this method will give you some idea if you are in track or not. It is also used to remove some work in order to meet the deadline.
+   &nbsp;
+2. **Story Board**:
+   <img src="./images/Agile_Software_Development/ASD19.png" alt="alt text" width="1000"/> 
+      &nbsp;
+3. **Cumulative Flow**:
+  <img src="./images/Agile_Software_Development/ASD20.png" alt="alt text" width="1000"/> 
+  This is like an extension for the Release burn up. But in addition, we add the cumulative of different status of the story.
+      &nbsp;
+
 
 
 
