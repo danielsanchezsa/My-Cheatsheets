@@ -414,42 +414,140 @@ The release tracking will help you know if we are on track for a particular rele
 There are three methods:
 
 1. **Release Burn Up**:
-   <img src="./images/Agile_Software_Development/ASD18.png" alt="alt text" width="1000"/> 
+   <img src="./images/Agile_Software_Development/ASD18.png" alt="alt text" width="400"/> 
    So this method will give you some idea if you are in track or not. It is also used to remove some work in order to meet the deadline.
    &nbsp;
 2. **Story Board**:
-   <img src="./images/Agile_Software_Development/ASD19.png" alt="alt text" width="1000"/> 
+   <img src="./images/Agile_Software_Development/ASD19.png" alt="alt text" width="400"/> 
       &nbsp;
 3. **Cumulative Flow**:
-  <img src="./images/Agile_Software_Development/ASD20.png" alt="alt text" width="1000"/> 
+  <img src="./images/Agile_Software_Development/ASD20.png" alt="alt text" width="400"/> 
   This is like an extension for the Release burn up. But in addition, we add the cumulative of different status of the story.
       &nbsp;
 
-
-
-
 &nbsp;
 
 ---
 
+## SCRUM
 
+### SCRUM Overview
 
+So SCRUM works in a 1-4 week sprint where you take part if your product, and you define, you design, you build, and you test. This is the main cycle. You will repeat again and again until you have the final product.
 
+ <img src="./images/Agile_Software_Development/ASD21.png" alt="alt text" width="600"/> 
+
+ &nbsp;
+
+#### Process:
+
+In order to start, you will need to **define 3 personas**. The **Product Owner**, who defines what needs to be done and at what order. **The SCRUM Master**, which helps the team stay true to the SCRUM values and principles and facilitates most of the meetings in the team. And finally **the team**.
+
+The product owner will **get input** from the client, stakeholders, customers, etc. and will try to define what exactly needs to be built. With this, he will create the **product backlog** (A list of requirements ordered by priority.) The difference between a Product backlog and a **requirements list** is that the backlog is at a high level and can change over time.
+
+With this it will start the **Sprint Planning Meeting**. In here, the whole team comes together, and they pick the user stories that they can work on in the existing sprint. The PO reviews that stories with the team and clarifies what needs to be done.
+
+Then the team gets together again and then does a tasking out of the stories. **This is a Sprint Backlog**. In here the team basically will gain **confidence** by understanding specifically what needs to be done to complete that user story. 
+
+The **sprint will start**. Everybody is working to implement the software. During the sprint the whole team gets together for a **Daily Scrum Meeting**, in which everybody will talk about what they did yesterday, what are they going to do today, and if there are any roadblocks. To **keep track** of the sprint, we can use rather a burn up or a burn down chart.
+
+At the end of the sprint you will have a **finished product**. There are two other meetings at the end. The first one is the **Sprint Review**. The whole team gets together with the stakeholders and the client and will demonstrate the work they have done and get feedback. The other one is the **Sprint Retrospective**. In here we talk about the process, not the product. We talk about what went well, what did not went well and how can we improve it.
+
+<img src="./images/Agile_Software_Development/ASD22.png" alt="alt text" width="600"/> 
+
+#### Process Summary:
+
+1. Product Owner understands what needs to be done by the input of the Client, Stakeholders, etc.
+2. Product Owner will create the Product Backlog.
+3. BEGIN CYCLE: Sprint Planning Meeting
+4. Sprint Backlog
+5. DURING SPRINT: Daily Scrum Meeting and Track Progress.
+6. SPRINT FINISHED: Sprint Review and Sprint Retrospective
+
+&nbsp;
+
+### Sprint Tracking and Planning
+
+In this section we **focus on** the Sprint Planning Meeting, Sprint Backlog, and the Burn down/up charts to track progress.
+
+***BEFORE*** the Sprint Planning, you need to do the Backlog Grooming. This is basically updating the Backlog based on these tips:
+
+- **Removing** user stories that no longer appear relevant.
+- Creating **new user stories** in response to newly discovered needs.
+- Re-assessing the relative **priority** of stories
+- Assigning **estimates** to stories which have yet to receive one. 
+- Correcting **estimates** in light of newly discovered information.
+- **Splitting** user stories which are high priority but too coarse grained to fit in an upcoming sprint.
+
+Once this is done, it is time to **Select and prepare Stories**.
+
+- How do you select **potential stories**?
+   - Story Map
+   - Prioritized backlog and velocity
+   - Alternatives:
+     - Theme?
+     - anything team wants to learn?
+- Make sure **stories are ready** to be worked upon (why, what why, acceptance tests, and major dependencies).
+
+Now, the **Sprint Planning Begins.**
+There are two possible ways:
+- One step: Select one story at a time, task it out until capacity reached.
+- Two step:
+  1. Select stories based on velocity
+  2. Task out and gain confidence.
+
+#### Sprint Planning Steps
+
+1. Determine **Sprint capacity**.
+   &nbsp;
+   <img src="./images/Agile_Software_Development/ASD23.png" alt="alt text" width="600"/> 
+   &nbsp;
+   &nbsp;
+2. Review Sprint **Goal** (if any)
+   - At the end of sprint X, persona will be able to do xyz...
+   - Something that the team can rally around.
+    &nbsp;
+
+3. Review **Potential Stories**
+   - PO goes through selected stories
+   - TIP: Elicit feedback. People not asking questions is generally a bad sign.
+   - TIP: Setup a "definition of ready" for stories
+    &nbsp;
+
+4. Acquire **Confidence**: Design Discussion and **Task out** stories
+   - Not everybody has to stick around.
+   - Face-to-face conversation helps
+   - TIP: Time box activity/discussions
+   - TIP: Estimate tasks in ideal days/hours
+    &nbsp;
+5. **Refine** sprint goals if required
+     &nbsp;
+6. Make **Commitment**
+     &nbsp;
+7. Put the stories and tasks on the **task wall**
+   &nbsp;
+
+#### Sprint Tracking
+
+There are 3 methods to track te current sprint:
+
+1. **Burn down**: you calculate the amount of work LEFT.
+   &nbsp;
+   <img src="./images/Agile_Software_Development/ASD24.png" alt="alt text" width="600"/> 
+   &nbsp;
+   &nbsp;
+2. **Burn up**: The amount of work DONE and the total work TODO:
+     &nbsp;
+   <img src="./images/Agile_Software_Development/ASD25.png" alt="alt text" width="600"/> 
+   &nbsp;
+   &nbsp;
+3. **Task board**: A visual way to see wether you are on track or not.
+  &nbsp;
+   <img src="./images/Agile_Software_Development/ASD26.png" alt="alt text" width="600"/> 
+   &nbsp;
+   &nbsp;
 
 
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
----
-
-## Common Terms
-
-### User Stories
-- These are a **basic unit of user needs**, which is also known as **requirements** 
-
-
-
 
 ---
