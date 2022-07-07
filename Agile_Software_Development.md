@@ -547,6 +547,102 @@ There are 3 methods to track te current sprint:
    &nbsp;
    &nbsp;
 
+### Sprint Review, Retrospective and Sprint Execution
+
+#### Sprint Execution
+
+- It is recommended that users pick the boards from the story rather than assigning to them (Choose inside the priority cards).
+
+- You DO NOT want too much work weight ona single person or too many things going on at the same time.
+
+- Parallel work vs. Swarming: Parallel means to work on a few stories at a time, while Swarming means to focus on a specific story (the whole team)
+
+- Generalists vs Specialists: In order to make Swarming work, you need generalists instead of specialists. This means that you need to have a person, group that together can make the whole story (UI, front, back, etc.). With this, you can work with swarming.
+- Discipline: Whatever the team decided, we all must follow those rules and working agreements.
+- Engineering practices: continuos integration, automated deployment,etc. (engineering practices)
+
+&nbsp;
+
+#### Daily Standups
+
+- **What**
+  - Team members answer **three questions**
+    - What I did yesterday?
+    - What I am going to do today?
+    - Roadblocks?
+  - **ALTERNATIVE**:
+    - Work items Attend / Story Focused stand-up: In here you look at the board, pick the first story and the one working n that talks about it.
+- **Who**: The Core team and any stakeholder wo wants to attend.
+- **Purpose**:
+  - Daily team planning
+  - Collaborate
+  - Identify Blockers
+  - Status Check?
+- **Tips**:
+  - Show the board
+  - Parking lot: if a discussion is taking to long, you pause it, finish the standup and continue with him after.
+  - Keep it short
+  
+&nbsp;
+
+
+#### Sprint Review
+
+- **Purpose**:
+  - Review work done and learnings' from the sprint.
+  - Get feedback and adjust future direction
+  - Celebrate
+- **Who**: 
+  - Core team
+  - Stakeholders
+  - Anybody and everybody
+- **How long?**:
+  - 1-2 hours
+- **What Happens?**:
+  - Summarize
+  - Demo
+  - Discuss
+  - Adapt
+- **TIPS**:
+  - Don't wait for review to show your work
+    - If you finish something earlier, you can show it to the Product Owner, the client, etc. to get the feedback.
+  - Demo done things only (OPTIONAL)
+  - Make effort to get stakeholders to attend:
+    - This will make them know your commitment of what you are delivering
+  - Presentations by individuals:
+    - Try to make the presentations with all the people that developed it. Each one of them will show their work.
+  - Prepare the work:
+    - Get the demo and presentation ready before the meeting, but do not take too long to do it.
+  
+&nbsp;
+
+
+
+
+#### Sprint Retrospective
+
+It may be the **most important** part of SCRUM.
+No matter how much you prepare the sprint, you cannot get your process right the first time. So you always want to make sure that you are **constantly improving** your process.
+
+- **Who**: Core team (NOT STAKEHOLDERS)
+- **When**: At the end of the sprint
+- **Purpose**: Continuous improvement
+- **What** happens:
+  - What is working?
+  - What is NOT working?
+  - Action Items?
+  - The common way is to use a three column board, in which everyone add cards based on their opinion:
+   <img src="./images/Agile_Software_Development/ASD27.png" alt="alt text" width="300"/>
+   Then, we will make a discussion on each card.
+   &nbsp;
+
+   - ALTERNATIVE: **Focused Retro**
+     <img src="./images/Agile_Software_Development/ASD28.png" alt="alt text" width="300"/>
+ &nbsp;
+
+   - **TIPS:**
+    <img src="./images/Agile_Software_Development/ASD29.png" alt="alt text" width="300"/>
+
 
 &nbsp;
 
