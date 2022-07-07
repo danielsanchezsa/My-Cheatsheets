@@ -551,15 +551,15 @@ There are 3 methods to track te current sprint:
 
 #### Sprint Execution
 
-- It is recommended that users pick the boards from the story rather than assigning to them (Choose inside the priority cards).
+- It is recommended that devs **pick the stories** from the board rather than assigning to them (Choose inside the priority cards).
 
-- You DO NOT want too much work weight ona single person or too many things going on at the same time.
+- You DO NOT want **too much work weight** on a single person or too many things going on at the same time.
 
-- Parallel work vs. Swarming: Parallel means to work on a few stories at a time, while Swarming means to focus on a specific story (the whole team)
+- **Parallel work vs. Swarming**: Parallel means to work on a few stories at a time, while Swarming means to **focus** on a specific story (the whole team)
 
-- Generalists vs Specialists: In order to make Swarming work, you need generalists instead of specialists. This means that you need to have a person, group that together can make the whole story (UI, front, back, etc.). With this, you can work with swarming.
-- Discipline: Whatever the team decided, we all must follow those rules and working agreements.
-- Engineering practices: continuos integration, automated deployment,etc. (engineering practices)
+- **Generalists vs Specialists**: In order to make Swarming work, you need generalists instead of specialists. This means that you need to have a person, group that **together** can make the whole story (UI, front, back, etc.). With this, you can **work with swarming**.
+- **Discipline**: Whatever the team decided, we all must follow those rules and working agreements.
+- **Engineering practices**: continuos integration, automated deployment,etc. (engineering practices)
 
 &nbsp;
 
