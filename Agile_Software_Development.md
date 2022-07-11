@@ -647,3 +647,118 @@ No matter how much you prepare the sprint, you cannot get your process right the
 &nbsp;
 
 ---
+
+## XP
+
+### XP Overview
+
+XP Stands for e**X**treme **P**rogramming.
+
+"Is something is good, why don't we take it to the extreme?"
+
+XP is all about engineering practices, giving up old habits, lightweight and very adaptive.
+
+It sounds very good, but since it took everything to an extreme, it ran into some controversy: Pair programmings, prescriptive, incremental design, scalability, and others.
+
+&nbsp;
+
+### XP Values
+
+The XP Values are:
+
+- **Simplicity**:
+  - We will do only the necessary.
+  - What is the simplest thing that could possibly work?
+- **Communication**:
+  - Everyone should communicate face to face daily
+  - Work together on everything
+  - Create a sense of team
+- **Courage**:
+  - Tell the truth about the process
+  - Don't document excuses for failure
+  - Adapt to changes
+- **Feedback**:
+  - Getting as much feedback as team can handle
+  - Get feedback to iterate and improve.
+  - Slow down feedback if you can't adapt.
+  - Feedback comes in many forms
+- **Respect**:
+  - I am important, ans so are you
+
+
+&nbsp;
+
+### XP Practices
+
+1. **Sit together**:
+     - Open working and highly collaborative environment:
+     - XP Recommends the team to all sit together, which means tear down the walls between the cubicles, bring the hole team together to a common area or a common room for collaboration.
+2. **Whole Team**:
+     -  Everyone needed for project success is part of the team.
+     -  Team composition is Dynamic
+3. **Informative Workspace**:
+     -  Build your workspace so that if anyone comes there, they will get an idea of what is going on in 15 seconds.
+     -  Dynamic information: Keep the workspace information up -to-date.
+     -  keep it clean
+4. **Energized Work**
+   -  Working hours - productive: Don't burn down the team by making them work more than they can, and don´t spoil the future work.
+   -  Sick? Stay out, rest and get well.
+   -  Incremental improvement
+5. **Pair Programming**:
+   - Two people working together
+   - Work alone only when needed.
+   -  This will help you keep each other on task, brainstorm refinements, clarify ideas, take initiative if parent is stuck, hold each other accountable to the team's practices.
+6. **Stories**:
+  - Unit of functionality.
+  - They are flexible
+  - Estimate early
+  - Keep them visible
+7. **Weekly Cycle**:
+    - Plan weekly.
+      - Review progress
+      - Select week's worth work
+      - Break Stories into tasks
+    - Gradually reduce planning time
+    - Task ownership
+8. **Quarterly Cycle**:
+   - Plan work quarter at a time
+9. **Slack**:
+   - Build some slack into the process.
+     - Lower priority tasks that can be skipped
+     - One week every 8th week as geek week
+     - 20% time for programmer-chosen tasks
+10. **Ten minute build**
+      - Build and run the tests with in 10 minutes.
+      - New to agile
+        - Automated build
+        - continue to evolve
+      - Gives confidence and reduces stress
+11. **Continuous integration**
+    - Integrate and test changes after no more than a couple of hours.
+    - Asynchronous integrations
+    - Synchronous integrations
+12. **Test first functionality**:
+  - Write test -> Run tests to see it fail -> Write code -> Until test pass.
+  - Benefits:
+    - Avoid sScope creep
+    - Build Trust in team members
+    - Reduce Coupling.
+13. **Incremental Design**:
+      - Invest a little in design everyday
+      - Excess complexity -> Refactor
+      - Architecture emerges over time
+
+
+&nbsp;
+
+### XP Process Model
+
+XP process starts with release planning. In here you plan next release, which means selecting what team will deliver as part of the next release.
+
+<img src="./images/Agile_Software_Development/ASD30.png" alt="alt text" width="1000"/>
+
+
+&nbsp;
+
+---
+
